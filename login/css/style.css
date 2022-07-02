@@ -26,23 +26,38 @@ form
     box-shadow: 0 0 30px rgba(0, 0, 0, .9);
 }
 
-p
+h1
 {
     text-align: center;
     padding: 1%;
     color: white;;
-    background-color: aliceblue;
+    transform: translateY(45%);
 }
 
-form .input
+form .inputfield
 {
+    width: 100%;
     display: flex;
     justify-content: center;
-    padding: 0%;
+    padding: 8px;
+    transform: translateY(55%);
 }
 
-form .button
+form input
 {
+    width: 100%;
+    padding: 10px;
+}
+
+form input[type="button"]
+{
+    width: 95.85%;
+    padding: 15px;
     display: flex;
     justify-content: center;
+    transform: translate(8px, 50px);
+    background: gray;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
 }
