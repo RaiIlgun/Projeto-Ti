@@ -21,7 +21,7 @@ body{
     border: 0;
     background: none;
     display: block;
-    margin: 30px auto;
+    margin: 23px auto;
     text-align: center;
     border: 2px solid white;
     padding: 14px 10px;
@@ -55,13 +55,8 @@ body{
 .caixa input[type = "text"]:focus,.caixa input[type = "password"]:focus{
     width: 270px;
 }
-.caixa input[value = "Entrar"]{
-    width: 100px;
-    transform: translateX(-60%);
-}
 .caixa input[value = "Registrar"]{
     width: 100px;
-    transform: translate(60%, -162%);
 }
 .caixa p{
     transform: translateY(-80px);
@@ -73,4 +68,13 @@ body{
 }
 .caixa p:hover{
     color: white;
+}
+.error-validation{
+    color: red;
+    position: absolute;
+    top: 57px;
+    font: .8rem;
+}
+.template{
+    display: none;
 }

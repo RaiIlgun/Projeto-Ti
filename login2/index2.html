@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Registro</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <style>
+        ::placeholder {
+          color: white;
+          opacity: 1; /* Chromium */
+        }
+        
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+         color: white;
+        }
+        
+        ::-ms-input-placeholder { /* Microsoft Edge */
+         color: white;
+        }
+    </style>
+</head>
+<body>
+    <form class="caixa" id="regform" name="regform">
+        <h1>REGISTRO</h1>
+        <input type="text" id="input-user" placeholder="Usuario">
+        <input type="text" id="input-email" placeholder="E-mail">
+        <input type="password" id="input-pass" placeholder="Senha">
+        <input type="submit" id="btn-reg" value="Registrar">
+    </form>
+    <p class = "error-validation template"></p>
+    <script src="js/script.js"></script>
+</body>
+</html>
