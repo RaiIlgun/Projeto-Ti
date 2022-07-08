@@ -8,7 +8,7 @@ class Validator {
 
     validate(form) {
 
-        let inputs = form.getElementsbyTagName('input');
+        let inputs = form.getElementsByTagName('input');
         console.log(inputs);
         let inputsArray = [...inputs];
         console.log(inputsArray);
