@@ -35,10 +35,13 @@ class Validator {
 
     minlength(input, minValue){
 
-        console.log(input);
-        console.log(minValue);
+       let inputLength = input.value.length;
+       let errorMessage = 'O campo deve conter pelomenos ${minValue} caracteres.';
+       if(inputLength < minValue){
+        console.log(errorMessage);
+       }
 
-    }
+    };
 
 }
 
