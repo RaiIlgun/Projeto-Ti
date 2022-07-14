@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #7d26cd;
+}
+.caixa{
+    width: 300px;
+    height: 365px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: gray;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 10);
+}
+.caixa input[type = "text"],.caixa input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    border: 2px solid white;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 30px;
+    background-color: #000000;
+    transition: 0.5s;
+}
+.caixa input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    border: 2px solid white;
+    padding: 14px 10px;
+    width: 100px;
+    outline: none;
+    color: white;
+    border-radius: 30px;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.caixa input[type = "submit"]:hover,.caixa input[type = "text"]:hover,.caixa input[type = "password"]:hover{
+    border-color: black;
+    background-color: #7d26cd;
+}
+.caixa input[type = "text"]:focus,.caixa input[type = "password"]:focus{
+    width: 270px;
+}
+.caixa input[value = "Entrar"]{
+    width: 100px;
+    transform: translateX(-60%);
+}
+.caixa input[value = "Registrar"]{
+    width: 100px;
+    transform: translate(60%, -162%);
+}
+.caixa p{
+    transform: translateY(-80px);
+    color: black;
+    transition: 0.5s;
+}
+.caixa a{
+    text-decoration: none;
+}
+.caixa p:hover{
+    color: white;
+}
