@@ -87,8 +87,9 @@ console.log(cpfok);
 function ValidarCPF() {
 
   if(AnaliseCPF(ao_cpf)){
-    return = true
-    
+    return = true;
+    validarpD(cpf);
+    validarsD(cpf);
   }
-
+return = false;
 }
